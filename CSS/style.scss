@@ -1,12 +1,13 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
 
-nav{
+nav {
     background: #000 !important;
-    a{
+
+    a {
         color: #000 !important;
         font-family: "Syne", sans-serif;
         font-size: 17px !important;
@@ -15,21 +16,25 @@ nav{
     }
 }
 
-.about{
+.about {
     overflow: hidden;
     padding: 80px 0px;
-    .about-img{
+
+    .about-img {
         height: 580px;
-        img{
+
+        img {
             height: 100%;
             width: 100%;
             object-fit: cover;
         }
+
         @media (max-width:991px) {
             height: 350px;
         }
     }
-    h1{
+
+    h1 {
         font-family: cinzel;
         font-style: normal;
         font-size: 48px;
@@ -38,13 +43,15 @@ nav{
         padding-bottom: 40px;
         color: #AB2222;
     }
-    h6{
+
+    h6 {
         font-family: "Rubik", sans-serif;
         font-size: 18px;
         color: #000;
         font-style: normal;
         font-weight: 300;
-        span{
+
+        span {
             font-weight: 700;
             display: block;
             font-size: 22px;
@@ -52,18 +59,21 @@ nav{
             padding-bottom: 13px;
         }
     }
-    p{
+
+    p {
         font-size: 15px;
         font-family: "Rubik", sans-serif;
         font-weight: 300;
         font-style: normal;
 
     }
-    button{
+
+    button {
         background: #AB2222;
         padding: 5px 14px;
         border: none;
-        a{
+
+        a {
             color: #fff;
             text-decoration: none;
             font-family: "Rubik", sans-serif;
@@ -72,10 +82,11 @@ nav{
     }
 }
 
-.history{
+.history {
     overflow: hidden;
     padding: 50px 0px;
-    h1{
+
+    h1 {
         font-family: Cinzel;
         font-weight: 500;
         font-style: normal;
@@ -84,7 +95,8 @@ nav{
         margin: 0px;
         padding-bottom: 30px;
     }
-    p{
+
+    p {
         font-style: normal;
         font-size: 18px;
         font-weight: 300;
@@ -93,10 +105,11 @@ nav{
     }
 }
 
-.dreams{
+.dreams {
     overflow: hidden;
     padding: 50px 0px;
-    h2{
+
+    h2 {
         font-family: Cinzel;
         font-size: 51px;
         font-weight: 500px;
@@ -106,38 +119,43 @@ nav{
         margin: 0px;
         padding-bottom: 20px;
     }
-    p{
+
+    p {
         font-size: 17px;
         font-style: normal;
         font-weight: 300;
         color: #000;
         font-family: "Lato", sans-serif;
     }
-    button{
+
+    button {
         background-color: #AB2222;
         padding: 5px 20px;
         border: none;
-        a{
+
+        a {
             font-size: 14px;
-        font-style: normal;
-        font-weight: 300;
-        color: #fff;
-        text-decoration: none;
-        font-family: "Lato", sans-serif;
+            font-style: normal;
+            font-weight: 300;
+            color: #fff;
+            text-decoration: none;
+            font-family: "Lato", sans-serif;
         }
     }
 }
 
-.amenities{
+.amenities {
     overflow: hidden;
     padding: 50px 0px;
     background-color: #eeefeb;
-    img{
+
+    img {
         align-self: center;
-    height: 90px;
-    filter: grayscale(1);    
+        height: 90px;
+        filter: grayscale(1);
     }
-    h6{
+
+    h6 {
         color: #53626a;
         font-weight: 400;
         font-size: 17px;
@@ -147,7 +165,8 @@ nav{
         margin-bottom: 0px;
         text-transform: uppercase;
     }
-    h2{
+
+    h2 {
         font-size: 56px;
         color: #AB2222;
         font-weight: 500;
@@ -155,7 +174,8 @@ nav{
         line-height: normal;
         margin: 0px;
     }
-    p{
+
+    p {
         font-size: 14px;
         font-style: normal;
         font-weight: 500;
@@ -165,11 +185,12 @@ nav{
     }
 }
 
-.gallery{
+.gallery {
     overflow: hidden;
     padding: 50px 0px;
     background-color: #000;
-    h2{
+
+    h2 {
         font-size: 76px;
         font-weight: 500;
         font-family: Cinzel;
@@ -178,18 +199,20 @@ nav{
     }
 }
 
-.location{
+.location {
     overflow: hidden;
     padding: 70px 0px;
-    h2{
+
+    h2 {
         font-size: 56px;
         color: #AB2222;
         font-weight: 500;
         font-family: Cinzel;
         line-height: normal;
-        margin: 0px; 
+        margin: 0px;
     }
-    p{
+
+    p {
         margin: 0px;
         font-size: 14px;
         font-style: normal;
@@ -198,16 +221,18 @@ nav{
         text-decoration: none;
         font-family: "Lato", sans-serif;
     }
-    h3{
+
+    h3 {
         font-size: 36px;
         color: #000;
         font-weight: 700;
         font-family: "Lato", sans-serif;
         line-height: normal;
-        margin: 0px; 
+        margin: 0px;
         padding-bottom: 30px;
     }
-    h6{
+
+    h6 {
         font-size: 22px;
         color: #000;
         font-weight: 700;
@@ -216,10 +241,11 @@ nav{
     }
 }
 
-footer{
-    .foot{
+footer {
+    .foot {
         background-color: #000;
-        h5{
+
+        h5 {
             font-size: 14px;
             font-style: normal;
             font-weight: 500;
