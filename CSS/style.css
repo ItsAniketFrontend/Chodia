@@ -16,16 +16,22 @@ nav a {
 }
 
 .about {
+  overflow: hidden;
   padding: 80px 0px;
 }
 .about .about-img {
-  height: 700px;
+  height: 580px;
 }
 .about .about-img img {
   height: 100%;
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+}
+@media (max-width: 991px) {
+  .about .about-img {
+    height: 350px;
+  }
 }
 .about h1 {
   font-family: cinzel;
@@ -69,6 +75,7 @@ nav a {
 }
 
 .history {
+  overflow: hidden;
   padding: 50px 0px;
 }
 .history h1 {
@@ -89,6 +96,7 @@ nav a {
 }
 
 .dreams {
+  overflow: hidden;
   padding: 50px 0px;
 }
 .dreams h2 {
@@ -123,6 +131,7 @@ nav a {
 }
 
 .amenities {
+  overflow: hidden;
   padding: 50px 0px;
   background-color: #eeefeb;
 }
@@ -159,6 +168,7 @@ nav a {
 }
 
 .gallery {
+  overflow: hidden;
   padding: 50px 0px;
   background-color: #000;
 }
@@ -171,6 +181,7 @@ nav a {
 }
 
 .location {
+  overflow: hidden;
   padding: 70px 0px;
 }
 .location h2 {
