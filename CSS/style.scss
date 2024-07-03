@@ -152,7 +152,7 @@ nav {
     img {
         align-self: center;
         height: 90px;
-        filter: grayscale(1);
+        filter: grayscale(30);
     }
 
     h6 {
@@ -246,7 +246,7 @@ footer {
         background-color: #000;
 
         h5 {
-            font-size: 14px;
+            font-size: 18px;
             font-style: normal;
             font-weight: 500;
             color: #fff;
@@ -254,5 +254,80 @@ footer {
             text-decoration: none;
             font-family: "Lato", sans-serif;
         }
+    }
+
+    button {
+        background-color: #fff;
+        padding: 5px 30px;
+
+        a {
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 600;
+            color: #000;
+            margin-bottom: 0px;
+            text-transform: uppercase;
+            text-decoration: none;
+            font-family: "Lato", sans-serif;
+        }
+    }
+}
+
+.form {
+    padding: 80px;
+    border-radius: 0px 0px 30px 30px;
+    background: #D9D9D9;
+    box-shadow: 0px 1px 2.6px 0px rgba(0, 0, 0, 0.25);
+    h1{
+        font-size: 42px;
+        font-style: normal;
+        font-weight: 400;
+        color: #000;
+        margin-bottom: 10px;
+        border: none;
+        text-decoration: none;
+        
+        font-family: "Outfit", sans-serif;
+    }
+    input {
+        width: 100%;
+        padding: 8px;
+        border-radius: 0.864px;
+        border: #000;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        color: #000;
+        margin-bottom: 0px;
+        text-decoration: none;
+        font-family: Cinzel;
+    }
+
+    textarea {
+        width: 100%;
+        padding: 8px;
+        border-radius: 0.864px;
+        border: #000;
+        height: 180px;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        color: #000;
+        margin-bottom: 0px;
+        text-decoration: none;
+        font-family: Cinzel;
+    }
+
+    button {
+        padding: 7px 30px;
+        font-size: 21px;
+        font-style: normal;
+        font-weight: 400;
+        color: #fff;
+        margin-bottom: 0px;
+        border: none;
+        text-decoration: none;
+        font-family: "Outfit", sans-serif;
+        background-color: #AB2222;
     }
 }
