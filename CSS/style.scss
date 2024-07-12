@@ -199,6 +199,44 @@ nav {
     }
 }
 
+.floor{
+    padding: 50px 0px;
+    h2{
+        font-size: 56px;
+        font-weight: 500;
+        font-family: Cinzel;
+        line-height: normal;
+        margin: 0px; 
+        padding-bottom: 30px;
+    }
+    .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+        color: #fff;
+        background: #AB2222;
+    }
+    .nav-link {
+        display: block;
+        padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+        font-size: 21px !important;
+        font-weight: var(--bs-nav-link-font-weight);
+        color: #000;
+        font-family: Cinzel;
+        text-decoration: none;
+        background: 0 0;
+        border: 0;
+        transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+        &:hover{
+            color: #000;
+        }
+    }
+    h6 {
+        font-size: 18px;
+        font-weight: 500;
+        font-family: Cinzel;
+        line-height: normal;
+        margin: 0px;
+    }
+}
+
 .location {
     overflow: hidden;
     padding: 70px 0px;
@@ -300,7 +338,21 @@ footer {
         color: #000;
         margin-bottom: 0px;
         text-decoration: none;
-        font-family: Cinzel;
+        font-family: "Outfit", sans-serif;
+    }
+    select{
+        width: 100%;
+        padding: 8px;
+        border-radius: 0.864px;
+        border: #000;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 300;
+        color: #000;
+        text-transform: capitalize;
+        margin-bottom: 0px;
+        text-decoration: none;
+        font-family: "Outfit", sans-serif;
     }
 
     textarea {
@@ -315,7 +367,7 @@ footer {
         color: #000;
         margin-bottom: 0px;
         text-decoration: none;
-        font-family: Cinzel;
+        font-family: "Outfit", sans-serif;
     }
 
     button {
