@@ -42,6 +42,9 @@ nav {
         margin: 0px;
         padding-bottom: 40px;
         color: #AB2222;
+        @media (max-width:991px) {
+            font-size: 32px;
+        }
     }
 
     h6 {
@@ -94,6 +97,9 @@ nav {
         color: #AB2222;
         margin: 0px;
         padding-bottom: 30px;
+        @media (max-width:991px) {
+            font-size: 32px;
+        }
     }
 
     p {
